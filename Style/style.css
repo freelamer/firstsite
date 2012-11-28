@@ -1,0 +1,77 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,pre,a,img,strong,dl,dt,dd,ul,ol,li,fieldset,form,label,legend,table,tbody,thead,tr,th,td{margin:0px;padding:0px;border:0px;outline:0px;font-weight:inherit;font-style:inherit;font-size:100%;vertical-align:baseline}
+
+html,body{background:#fff;color:#444;font-family:tahoma,arial,sans-serif;font-size:10pt;height:100%;width:100%}
+body{overflow-y:scroll}
+code{padding:5px;font-size:9pt;overflow-x:scroll;overflow-x:auto}
+
+ul,ol,li,p{overflow:hidden}
+h1,h2{font-family:georgia,tahoma,sans-serif}
+h1,h2,h3{font-weight:bold;overflow:hidden;font-weight:normal;color:#444}
+h1{font-size:18pt;margin-bottom:16px}
+h2{font-size:16pt;margin-bottom:15px}
+h3{font-size:12pt;font-weight:bold;margin-bottom:10px}
+
+p{margin-bottom:10px}
+strong{font-weight:bold}
+em{font-style:italic}
+a{color:#003399;text-decoration:underline}
+a:hover{color:#f69452}
+
+#wrap{min-height:100%}
+#main{overflow:auto;padding-bottom:140px}
+#footer{margin-top:-130px;height:130px;overflow:auto;clear:both}
+body:before{content:"";height:100%;float:left;width:0;margin-top:-32767px;/}
+.align-container{margin:0 auto;width:900px;height:100%;overflow:hidden;position:relative}
+#main,#footer-content{margin:0 auto;width:100%}
+#header{height:60px;overflow:hidden;background:#2b012d url('/images/header-bg.png') left center repeat-x}
+#logo{display:block;position:absolute;left:0;top:10px;width:162px;height:38px;outline:none;text-indent:-999px;background:url('/images/logo.png') left center no-repeat}
+#main-menu{position:absolute;left:180px;top:0}
+#main-menu{overflow:hidden;list-style:none}
+#main-menu li{display:block;float:left;height:60px;margin:0;list-style:none}
+#main-menu li.active{background:url('/images/menu-h-bg.png') left center repeat-x;border-right:1px solid #5c1a5f;border-left:1px solid #5c1a5f}
+#main-menu li a{display:block;height:42px;padding:18px 17px 0 17px;font-size:16pt;text-decoration:none;color:#b594b6;text-shadow:#000 1px 1px 0}
+#main-menu li.active a{padding:18px 15px 0 15px;color:#000;text-shadow:#a762ab 1px 1px 0;border-right:1px solid #2e0d30;border-left:1px solid #2e0d30}
+#content{margin-top:40px}
+#footer{background:#ededed url('/images/footer-bg.png') left top repeat-x}
+#footer .align-container{height:115px;padding-top:15px}
+#copyright,#paysystems{float:left;padding-top:15px;height:85px;overflow:hidden}
+#copyright{width:170px;border-right:1px solid #d8d5d5}
+#footer-logo{display:block;width:80px;text-decoration:none;color:#444;text-shadow:#fff 1px 1px 0;padding-left:28px;margin-bottom:10px;background:url('/images/footer-logo.png') left center no-repeat}#footer-logo:hover{text-decoration:underline}
+#copyright p{margin-left:10px}
+#license,#license a{color:#838383;font-size:8pt}
+#paysystems{padding-left:20px;border-left:1px solid #fff}
+#payment-partner{float:left;width:160px;margin-right:20px}
+#payment-partner a{display:block;width:62px;height:18px;text-indent:-999px;background:url('/images/pay-partner.png') left top no-repeat}
+#paysystems ul{float:left;width:520px;overflow:hidden}
+#paysystems ul li{display:block;float:left;margin-right:20px;margin-bottom:10px}
+#paysystems ul li a,#paysystems ul li span{color:#444;display:block;width:120px;height:27px;padding-top:5px;padding-left:40px;text-decoration:underline}
+#paysystems #pay-qiwi,#paysystems #pay-evroset{margin-right:0}
+#paysystems #pay-yandex a{background:url('/images/paysystems.png') 0px 0px no-repeat}
+#paysystems #pay-mastercard a{background:url('/images/paysystems.png') 0px -32px no-repeat}
+#paysystems #pay-qiwi a{background:url('/images/paysystems.png') 0px -64px no-repeat}
+#paysystems #pay-webmoney a{background:url('/images/paysystems.png') 0px -96px no-repeat}
+#paysystems #pay-visa a{background:url('/images/paysystems.png') 0px -128px no-repeat}
+#paysystems #pay-evroset a{background:url('/images/paysystems.png') 0px -160px no-repeat}
+input[type=text],input[type=password],input[type=submit],input[type=file],textarea,select{border:1px solid #b2b2b2;background:#fff;color:#444;font-family:tahoma,arial,sans-serif;font-size:10pt;padding:2px}
+input[type=checkbox]{vertical-align:middle}
+textarea{resize:vertical;padding:2px}
+ul.form{list-style:none;margin:0;padding:0}
+ul li.form-item{list-style:none}
+.error_list{clear:both;color:#ff0000}
+.form-item .error_list{clear:both;font-size:9pt}
+.form-item{margin-bottom:15px;position:relative;overflow:hidden;clear:both}
+.form-item label{display:block}
+label.checkbox{display:inline;vertical-align:middle}
+.form-item input[type=text],.form-item input[type=password],.form-item input[type=file],.form-item select,.form-item textarea,.form-item .raty,.form-item .radio_list{width:250px}
+.form-item .help{color:#b2b2b2;font-size:9pt}
+form .column{float:left;width:400px}
+.form-item .radio_list{width:auto}
+.radio_list input,.radio_list label,.checkbox_list input,.checkbox_list label{float:left;margin-left:5px}
+.radio_list,.checkbox_list{margin-top:5px;padding:0}
+.radio_list,.checkbox_list,.radio_list li,.checkbox_list li{list-style:none}
+input[type=submit]{background-color:#f0f0f0;padding:4px 5px}
+input[type=submit]:hover{background-color:#ddd}
+#recaptcha_response_field{width:80px !important}
+.filter .form-item{clear:none;float:left;margin-right:15px;padding-top:1px}
+.filter .form-item.submit{padding-top:0}
+.filter .form-item label,.filter .form-item input,.filter .form-item select{display:inline !important}
