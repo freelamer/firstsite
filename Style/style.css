@@ -1,0 +1,25 @@
+.container-baner {
+ width: 950px; /* Ширина макета */
+ margin: 0 auto; /* Выравнивание по центру */
+ }
+ h1 {
+ border: 2px dashed maroon;
+ }
+ #main {
+ background-color: #000000; <!--верхний полоса-->
+ }
+.menu-container {
+
+background-color: #ff0000; 
+text-align: centr;
+}
+.menu li {
+ display:inline;
+margin-bottom: 30px;
+position: relative;
+text-align: centr;
+margin-left: 100px;
+margin-right: 50px;
+float:none;
+
+}
