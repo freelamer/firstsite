@@ -1,4 +1,4 @@
-.container-baner {
+<!--.container-baner {
  width: 950px; /* Ширина макета */
  margin: 0 auto; /* Выравнивание по центру */
  }
@@ -23,3 +23,89 @@ margin-right: 50px;
 float:none;
 
 }
+.container-media {
+float: right;
+   border: 1px dashed maroon; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 20px; /* Отступ справа */
+    width: 40%; /* Ширина блока */
+	}
+ .text { 
+  
+    background: #54B948;
+    margin: 0 10px; /* Ширина колонок */
+    padding: 10px;
+   }--!>
+   
+   
+   
+   
+   
+ 
+
+
+
+.container-baner {
+ width: 950px; /* Ширина макета */
+ margin: 0 auto; /* Выравнивание по центру */
+ }
+ h1 {
+ border: 2px dashed maroon;
+ }
+ #main {
+ background-color: #000000; <!--верхний полоса-->
+ }
+.menu-container {
+
+background-color: #ff0000; 
+text-align: centr;
+}
+.menu li {
+ display:inline;
+margin-bottom: 30px;
+position: relative;
+text-align: centr;
+margin-left: 100px;
+margin-right: 50px;
+float:none;
+
+} 
+ 
+ 
+  body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #D7E1F2; /* Цвет фона */
+    color: #ffe; /* Цвет текста */
+   }
+   a { color: #008BCE; /* Цвет ссылок */ }
+   #container {
+    width: 450px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    background: #FCE600; /* Цвет колонок */
+   }
+   #header { 
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #D71920; /* Цвет фона шапки */
+   }
+   #nav, .feature-functions {
+    float: left; width: 110px; padding: 5px;
+   }
+   .container t1 {
+    background: #54B948;
+    margin: 0 120px; /* Ширина колонок */
+    padding: 10px;
+   }
+   .feature-functions{
+    float: right; color: #000;
+   }
+   h2 { margin: 0 0 1em; }
+   #footer { 
+    clear: both; /* Отменяем действие float */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #D71920; /* Цвет фона подвала */
+   }  
+   
+   
+   
