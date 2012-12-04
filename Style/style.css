@@ -78,7 +78,50 @@ h2 { margin: 0 0 1em; }
     clear: both; /* Отменяем действие float */
     padding: 5px; /* Отступы вокруг текста */
     background: #D71920; /* Цвет фона подвала */
+    littlesms.rumedia="screen"
+    margin-top: -130px;
+    height: 130px;
+    overflow: auto;
+    clear: both;
+
    } 
+#footer .align-container {
+height: 115px;
+padding-top: 15px;
+}
+
+.align-container {
+margin: 0 auto;
+width: 900px;
+height: 100%;
+overflow: hidden;
+position: relative;
+}
+
+#copyright {
+width: 170px;
+border-right: 1px solid #D8D5D5;
+}
+
+#copyright, #paysystems {
+float: left;
+padding-top: 15px;
+height: 85px;
+overflow: hidden;
+}
+
+#paysystems {
+padding-left: 20px;
+border-left: 1px solid white;
+}
+
+#copyright, #paysystems {
+float: left;
+padding-top: 15px;
+height: 85px;
+overflow: hidden;
+}
+
 
 /* Вот отсюда комменты для кривого меню */      
    
