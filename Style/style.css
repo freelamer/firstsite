@@ -65,7 +65,7 @@ body {
 .container-media {
     display: block;
     background-color: #58c9e7;
-    position: relative;
+    position: absolute;
     margin-left: 60%;
     
     border: 1px solid black;
