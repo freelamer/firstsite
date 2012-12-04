@@ -4,7 +4,7 @@
  width: 950px; /* Ширина макета */
  margin: 0 auto; /* Выравнивание по центру */
  }
-h1 {
+h1 { color: #000000;
  border: 2px dashed maroon;
  }
 #main {
@@ -122,7 +122,13 @@ height: 85px;
 overflow: hidden;
 }
 
+h2 { color:#000000;
+padding-left:6%;
+}
+.feature {border: 1.5px dashed maroon;
 
+background-color: #DAA520;
+}
 /* Вот отсюда комменты для кривого меню */      
    
       
