@@ -15,10 +15,174 @@
 <link rel="stylesheet" type="text/css" media="screen" href="style/style.css">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript" src="/js/vendor/highlight/highlight.pack.js"></script>
+<style type="text/css">
+		
+		.block-menu {
+			display: block;
+			background: #000;
+		}
+
+		.block-menu li {
+			display: inline-block;
+		}
+
+		.block-menu li a {
+			color: #fff;
+			display: block;
+			text-decoration: none;
+			font-family: 'Passion One',Arial,sans-serif;
+			-webkit-font-smoothing: antialiased;
+			-moz-font-smoothing: antialiased;
+			font-smoothing: antialiased;
+			text-transform: uppercase;
+			overflow: visible;
+			line-height: 20px;
+			font-size: 24px;
+			padding: 15px 10px;
+		}
+
+		/* animation domination */
+		.three-d {
+			-webkit-perspective: 200px;
+			-moz-perspective: 200px;
+			perspective: 200px;
+			-webkit-transition: all .07s linear;
+			-moz-transition: all .07s linear;
+			transition: all .07s linear;
+			position: relative;
+		}
+
+			.three-d:not(.active):hover {
+				cursor: pointer;
+			}
+
+			.three-d:not(.active):hover .three-d-box, 
+			.three-d:not(.active):focus .three-d-box {
+				-moz-transform: translateZ(-25px) rotateX(90deg);
+				-webkit-transform: translateZ(-25px) rotateX(90deg);
+				-o-transform: translateZ(-25px) rotateX(90deg);
+				transform: translateZ(-25px) rotateX(90deg);
+			}
+
+		.three-d-box {
+			-webkit-transition: all .3s ease-out;
+			-moz-transition: all .3s ease-out;
+			-ms-transition: all .3s ease-out;
+			-o-transition: all .3s ease-out;
+			transition: all .3s ease-out;
+			-webkit-transform: translatez(-25px);
+			-moz-transform: translatez(-25px);
+			-o-transform: translatez(-25px);
+			transform: translatez(-25px);
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+			pointer-events: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+
+		.front {
+			-webkit-transform: rotatex(0deg) translatez(25px);
+			-moz-transform: rotatex(0deg) translatez(25px);
+			-o-transform: rotatex(0deg) translatez(25px);
+			transform: rotatex(0deg) translatez(25px);
+		}
+
+		.back {
+			-webkit-transform: rotatex(-90deg) translatez(25px);
+			-moz-transform: rotatex(-90deg) translatez(25px);
+			-o-transform: rotatex(-90deg) translatez(25px);
+			transform: rotatex(-90deg) translatez(25px);
+			color: #FFE7C4;
+		}
+
+		.front, .back {
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: black;
+			padding: 15px 10px;
+			color: white;
+			pointer-events: none;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+	</style>
 
 </head>
 <body> <!-- главный блок-->
-	<div id="wrap">                
+	<div id="wrap">
+<div id="main">                  <!-- выше header блок-->
+           <!-- xider блок-->
+             <div id="header">   
+                   <div class="container-baner">
+                  <br />
+                <a href="" title="tema bannera"><img  alt="tema tema" src="img/banner.jpg" /></a> <!-- баннер сам -->
+                  <br />
+                   </div>         
+                <div class="menu-container">      <!-- блок меню -->
+                   
+                 
+                    <!-- маркированный список для меню обозн на ENG -->
+					
+                  <ul class="block-menu">
+                     <li><a href="price.html" class="three-d">
+                                      Цены
+                   <span aria-hidden="true" class="three-d-box">
+                   <span class="front">Цены</span>
+                   <span class="back">Цены</span>
+                    </span>
+                     </a></li>
+                       <li><a href="partnership.html" class="three-d">
+                                      Партнерам
+                        <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Партнерам</span>
+                         <span class="back">Партнерам</span>
+                               </span>
+                     </a></li>
+					 
+					 <li><a href="faq.html" class="three-d">
+                                      Вопрос/Ответ
+                        <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Вопрос/Ответ</span>
+                         <span class="back">Вопрос/Ответ</span>
+                               </span>
+                     </a></li>
+					 
+					 <li><a href="feedback.html" class="three-d">
+                                     Контакты
+                        <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Контакты</span>
+                         <span class="back">Контакты</span>
+                               </span>
+                     </a></li>
+					 
+					 <li><a href="bulk.html" class="three-d">
+                                     Мой кабинет
+                        <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Мой кабинет</span>
+                         <span class="back">Мой кабинет</span>
+                               </span>
+                     </a></li>
+					 
+                     
+                     </ul>
+         
+				   
+
+                </div>
+            </div>
+        </div>	
 <!--Пошло наполнение CONTENT-->
 <div id="content">  <!-- -->
 <h1>Цены</h1>
@@ -27,32 +191,33 @@
   </div>
     <!--Подвал-->
 <div id="footer">
-    <div id="copyright">
-        <a id="footer-logo" href="/">LittleSMS.ru</a>
-        <p id="license">
-        <a href="/terms">условия использования</a><br /><br />
-        лицензия <a rel="nofollow" href="http://rsoc.ru/communication/register/license/?id=81928">№81928</a></p>
+        <div class="align-container">
+            <div id="copyright">
+                <a id="footer-logo" href="/">LittleSMS.ru</a>
+                <p id="license">
+                    <a href="/terms">условия использования</a><br><br>
+                    лицензия <a rel="nofollow" href="http://rsoc.ru/communication/register/license/?id=81928">№81928</a></p>
 
-    
-    </div>
-    <div id="paysistem">
+            </div>
 
-         <div id="payment-partner">
+            <div id="paysystems">
+                <div id="payment-partner">
                     <p>Процессинг платежей осуществляется системой</p>
                     <a href="http://platron.ru" target="_blank" rel="nofollow">Platron</a>
                 </div>
-                <ul>
-                    <li id="pay-yandex"><a href="/my/pay/yandex" rel="nofollow">Яндекс.Деньги</a></li>
-                    <li id="pay-mastercard"><a href="/my/pay/cardsraiffeisen" rel="nofollow">Карты MasterCard</a></li>
-                    <li id="pay-qiwi"><a href="/my/pay/osmp" rel="nofollow">Терминалы</a></li>
-                    <li id="pay-webmoney"><a href="/my/pay/webmoney" rel="nofollow">WebMoney</a></li>
-                    <li id="pay-visa"><a href="/my/pay/cardsoceanbank" rel="nofollow">Карты Visa</a></li>
-                    <li id="pay-evroset"><a href="/my/pay/osmp" rel="nofollow">Евросеть</a></li>
-                </ul>
-    
-
+                <table>
+			<tr>
+                    <td id="pay-yandex"><a href="/my/pay/yandex" rel="nofollow">Яндекс.Деньги</a><td>
+                    <td id="pay-mastercard"><a href="/my/pay/cardsraiffeisen" rel="nofollow">Карты MasterCard</a><td>
+                    <td id="pay-qiwi"><a href="/my/pay/osmp" rel="nofollow">Терминалы</a><td>
+                    <td id="pay-webmoney"><a href="/my/pay/webmoney" rel="nofollow">WebMoney</a><td>
+                    <td id="pay-visa"><a href="/my/pay/cardsoceanbank" rel="nofollow">Карты Visa</a><td>
+                    <td id="pay-evroset"><a href="/my/pay/osmp" rel="nofollow">Евросеть</a><td>
+			</tr>
+                </table>
+            </div>
+        </div>
     </div>
-</div>
   
 </body>
 </html>

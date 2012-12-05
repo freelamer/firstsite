@@ -59,6 +59,7 @@ body {
     margin-right: 50%;
      /* Ширина колонок */
     float: left;
+
     padding: 10px;
     border: 1px solid black
    }
