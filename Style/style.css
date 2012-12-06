@@ -63,6 +63,11 @@ body {
     padding: 10px;
     border: 1px solid black
    }
+.text {
+display: block;
+background: #777;
+
+}
 .container-media {
     display: block;
     background-color: #58c9e7;
@@ -78,8 +83,8 @@ h2 { margin: 0 0 1em; }
    #footer { 
     clear: both; /* Отменяем действие float */
     padding: 5px; /* Отступы вокруг текста */
-    background: #D71920; /* Цвет фона подвала */
-    littlesms.rumedia="screen"
+    background: #bc5959; /* Цвет фона подвала */
+    
     margin-top: -130px;
     height: 130px;
     overflow: auto;
@@ -93,10 +98,16 @@ padding-top: 15px;
 
 .align-container {
 margin: 0 auto;
-width: 900px;
+width: 60%;
 height: 100%;
 overflow: hidden;
 position: relative;
+}
+#payment-partner {
+float: left;
+width: 160px;
+margin-right: 20px;
+display: block;
 }
 
 #copyright {
@@ -116,11 +127,69 @@ padding-left: 20px;
 border-left: 1px solid white;
 }
 
-#copyright, #paysystems {
+#paysystems ul {
 float: left;
-padding-top: 15px;
-height: 85px;
+width: 560px;
 overflow: hidden;
+
+}
+
+#payment-partner a {
+display: block;
+width: 62px;
+height: 18px;
+text-indent: -999px;
+background: url('img/pay-partner.png') left top no-repeat;
+}
+#paysystems ul li {
+ 
+display: block;
+float: left;
+margin-right: 20px;
+margin-bottom: 10px;
+}
+
+#paysystems #pay-yandex a {
+display: block;
+padding-left: 30px;
+width: 126px;
+height: 32px;
+background: url('img/paysystems.png') 0px 0px no-repeat;
+}
+#paysystems #pay-mastercard a {
+display: block;
+padding-left: 30px;
+width: 126px;
+height: 32px;
+background: url('img/paysystems.png') 0px -32px no-repeat;
+}
+#paysystems #pay-qiwi a {
+display: block;
+padding-left: 30px;
+width: 126px;
+height: 32px;
+background: url('img/paysystems.png') 0px -64px no-repeat;
+}
+#paysystems #pay-webmoney a {
+display: block;
+padding-left: 30px;
+width: 126px;
+height: 32px;
+background: url('img/paysystems.png') 0px -96px no-repeat;
+}
+#paysystems #pay-visa a {
+display: block;
+padding-left: 30px;
+width: 126px;
+height: 32px;
+background: url('img/paysystems.png') 0px -128px no-repeat;
+}
+#paysystems #pay-evroset a {
+display: block;
+padding-left: 30px;
+width: 126px;
+height: 32px;
+background: url('img/paysystems.png') 0px -160px no-repeat;
 }
 
 h2 { color:#000000;
