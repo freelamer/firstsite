@@ -98,7 +98,7 @@ padding-top: 15px;
 
 .align-container {
 margin: 0 auto;
-width: 60%;
+width: 1000px;
 height: 100%;
 overflow: hidden;
 position: relative;
@@ -150,43 +150,49 @@ margin-bottom: 10px;
 }
 
 #paysystems #pay-yandex a {
+color: #ffcbad;
 display: block;
-padding-left: 30px;
+padding-left: 35px;
 width: 126px;
 height: 32px;
 background: url('img/paysystems.png') 0px 0px no-repeat;
 }
 #paysystems #pay-mastercard a {
+color: #ffe;
 display: block;
-padding-left: 30px;
+padding-left: 35px;
 width: 126px;
 height: 32px;
 background: url('img/paysystems.png') 0px -32px no-repeat;
 }
 #paysystems #pay-qiwi a {
+color: #ffe;
 display: block;
-padding-left: 30px;
+padding-left: 35px;
 width: 126px;
 height: 32px;
 background: url('img/paysystems.png') 0px -64px no-repeat;
 }
 #paysystems #pay-webmoney a {
+color: #ffe;
 display: block;
-padding-left: 30px;
+padding-left: 35px;
 width: 126px;
 height: 32px;
 background: url('img/paysystems.png') 0px -96px no-repeat;
 }
 #paysystems #pay-visa a {
+color: #ffe;
 display: block;
-padding-left: 30px;
+padding-left: 35px;
 width: 126px;
 height: 32px;
 background: url('img/paysystems.png') 0px -128px no-repeat;
 }
 #paysystems #pay-evroset a {
+color: #ffe;
 display: block;
-padding-left: 30px;
+padding-left: 35px;
 width: 126px;
 height: 32px;
 background: url('img/paysystems.png') 0px -160px no-repeat;
