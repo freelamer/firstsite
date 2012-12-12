@@ -56,10 +56,10 @@ body {
 .container-t1 {
     display: block;
     background: #54B948;
-    margin-right: 50%;
+    margin-right: 40%;
      /* Ширина колонок */
     float: left;
-
+    margin-left: 10%;
     padding: 10px;
     border: 1px solid black
    }
@@ -84,6 +84,16 @@ h2 { margin: 0 0 1em; }
     display: block;
     float: left;
     background-color: #302f2f;
+    position: absolute;
+    padding: 10px;
+    border: 1px;
+}
+.form-sign h3{
+    text-align: center;
+}
+.form-sign a{
+    color: #f4dddd;
+    font-size: smaller;
 
 }
 #sign-in {
