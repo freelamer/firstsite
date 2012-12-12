@@ -246,6 +246,7 @@ textarea {
   *display: inline;
   font-family: "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 14px;
+  
   line-height: 14px;
   color: #333333;
   min-width: 42px;
@@ -261,7 +262,7 @@ textarea {
 .m-btn:focus,
 .m-btn:active,
 .m-btn.active {
-  color: #333;
+  color: #335;
   text-decoration: none;  
   background-color: #dcdcdc;
   background-image: -moz-linear-gradient(top, #dcdcdc, #dcdcdc);

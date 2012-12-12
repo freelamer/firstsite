@@ -80,6 +80,16 @@ background: #777;
    
 h2 { margin: 0 0 1em; }
 
+.form-sign {
+    display: block;
+    float: left;
+    background-color: #302f2f;
+
+}
+#sign-in {
+    display: block;
+    float: left;
+}
    #footer { 
     clear: both; /* Отменяем действие float */
     padding: 5px; /* Отступы вокруг текста */
