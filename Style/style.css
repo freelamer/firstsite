@@ -63,6 +63,28 @@ body {
     padding: 10px;
     border: 1px solid black
    }
+.container-t2 {
+    display: block;
+    background: #94d468;
+    margin-right: 15%;
+     /* Ширина колонок */
+    float: left;
+    margin-left: 15%;
+    padding: 10px;
+    
+   }
+.container-t2 h1{
+    color: #3a376e;
+    border: none;
+}
+.table {
+   
+    background-color: #e8e8e8;
+    color: #000000;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: #000000;
+}
 .text {
 display: block;
 background: #777;
